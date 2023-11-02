@@ -8,7 +8,6 @@ networks:
 services:
     composer:
         image: composer:latest
-        container_name: composer
         volumes:
             - ./:/var/www/html
         working_dir: /var/www/html
